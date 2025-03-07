@@ -8,7 +8,7 @@ import com.google.firebase.firestore.QueryDocumentSnapshot;
 import java.util.ArrayList;
 
 public class MovieProvider {
-    private static MovieProvider movieProvider;
+    public static MovieProvider movieProvider;
     private final ArrayList<Movie> movies;
     private final CollectionReference movieCollection;
 
